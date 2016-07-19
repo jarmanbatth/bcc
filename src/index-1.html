@@ -1,0 +1,77 @@
+<!--<html>
+<body>
+<p>
+You need to create
+
+
+Index.php
+Login.php
+include/header.php
+include/db.class.php
+include/template.php
+js/jquery.js
+css/style.css
+files/
+
+</p>
+
+<div id="business-card">
+        
+            
+            <div class="container">
+        
+            <div class="leftside">
+                <div class="one">
+                    <span style="font-size: x-large">{{first_name}} {{middle_name}} {{last_name}} </span>
+                        <br>
+                        <span style="font-size: medium">{{designation}}</span>
+                        <br><br><br>
+                        <span style="font-size: medium"> <b>Desk : </b>{{phone}}</span>
+                        <br>
+                        <span style="font-size: medium"> <b>Mobile : </b>{{mobile}}</span>
+                        <br>
+                        <span style="font-size: medium"> <b>Fax : </b>{{fax}}</span>
+                        <br>
+                        <span style="font-size: medium"> <b>Email : </b>{{email}}</span>
+                        <br><br><br>
+                        <span style="font-size: x-large"><b>Iron Systems Inc.</b></span>
+                        <br>
+                        <span style="font-size: medium"> 980 Mission Court, Fremont,CA 94539, USA</span>
+                        
+                 </div>
+        </div>
+            
+            <div class="rightside">
+                <center> <img src="image/iron-systems-logo.png" width="150" height="150"></center>
+            </div>
+    </div> 
+       
+    </div>
+
+
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+    <div style="border:solid; height:200px; width:430px; font-family:Arial;">
+    <span style="float:right; margin-right:20px;margin-top:25px;"><img src="/images/iron.png" height='110'  width='120' ></span>
+<h3 style="margin-top: 10px; margin-left:10px;">{{full_name}}</h3>
+
+<p style="margin-top:-20px; margin-left:10px;font-size:14px;margin-bottom:20px;">{{designation}}</p>
+
+<br>
+
+<p style="margin-top:-20px; margin-left:10px;font-size:14px;margin-bottom:20px;"><a style="color:blue; margin-right:10px;">Desk</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{desk_number}}</p>
+<p style="margin-top:-20px; margin-left:10px;font-size:14px;margin-bottom:20px;"><a style="color:blue; margin-right:10px;">Fax</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{fax}}</p>
+<p style="margin-top:-20px; margin-left:10px;font-size:14px;margin-bottom:20px;"><a style="color:blue; margin-right:10px;">Company</a>&nbsp;{{company_number}}</p>
+<p style="margin-top:-20px; margin-left:10px;font-size:14px;margin-bottom:20px;"><a style="color:blue; margin-right:10px;">Email</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{email}}</p>
+<br>
+<h4 style="margin-top:-20px; margin-left:10px;"><b>Iron System Inc.</b></h4>
+<p style="margin-top:-20px; margin-left:10px;font-size:14px;margin-bottom:20px;">960 Mission Court Fremont,CA 94539, USA</p>
+</div>
+</body>
+</html>
